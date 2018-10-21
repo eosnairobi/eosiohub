@@ -1,0 +1,365 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="ICO Crypto is a modern and elegant landing page, created for ICO Agencies and digital crypto currency investment website."><!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/favicon.png"><!-- Site Title  -->
+    <title>EOSIOHub | A Curation of Tools on EOS </title><!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="{% static 'css/vendor.bundle.css' %}"><!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/theme.css' %}" id="layoutstyle">
+</head>
+
+<body class="theme-dark io-dark io-dark-light" data-spy="scroll" data-target="#mainnav" data-offset="80">
+    <!-- Header -->
+    <header class="site-header is-sticky">
+        <!-- Place Particle Js -->
+        <div id="particles-js" class="particles-container particles-js"></div><!-- Navbar -->
+        <div class="navbar navbar-expand-lg is-transparent" id="mainnav">
+            <nav class="container"><a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="./"><img
+                        class="logo logo-dark" alt="logo" src="{% static 'images/hub.png' %}" srcset="images/logo2x.png 2x"><img
+                        class="logo logo-light" alt="logo" src="{% static 'images/hub.png' %}" srcset="images/logo-white2x.png 2x"></a><button
+                    class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"><span class="navbar-toggler-icon"><span
+                            class="ti ti-align-justify"></span></span></button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+                    <ul class="navbar-nav animated" data-animate="fadeInDown" data-delay=".9">
+                        <li class="nav-item"><a class="nav-link menu-link" href="#intro">What is EOSIOHub?<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#tokenSale">Tools</a></li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li>
+                        {% comment %} <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                data-toggle="dropdown">MORE</a>
+                            <div class="dropdown-menu"><a class="dropdown-item menu-link" href="#media-partner">Media
+                                    Partners</a><a class="dropdown-item menu-link" href="#blogs">Blogs</a><a class="dropdown-item menu-link"
+                                    href="#faq">Faqs</a></div>
+                        </li> {% endcomment %}
+                        <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="navbar-nav navbar-btns animated" data-animate="fadeInDown" data-delay="1.15">
+                        {% comment %} <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Whitepaper</a></li>
+                        {% endcomment %}
+                        <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#apps">App -
+                                Coming Soon </a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".2"><a href="#"><em class="fab fa-apple"></em></a>
+                            <a><em class="fab fa-linux"></em></a>
+                            <a href="#"><em class="fab fa-android"></em></a><a href="#"><em class="fab fa-windows"></em></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Navbar -->
+        <!-- Banner/Slider -->
+        <div id="header" class="banner banner-full banner-curb banner-particle d-flex align-items-center">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="row align-items-center mobile-center">
+                        <div class="col-lg-6 col-md-12 order-lg-first">
+                            <div class="header-txt">
+                                <h1 class="animated" data-animate="fadeInUp" data-delay="1.55"> EOSIOHub - A Collection
+                                    of
+                                    Utilities on the EOS
+                                    Ecosystem </h1>
+                                <p class="lead color-secondary animated" data-animate="fadeInUp" data-delay="1.65">Discover
+                                    &middot;
+                                    Share &middot; Promote</p>
+                                <ul class="btns animated" data-animate="fadeInUp" data-delay="1.75">
+                                    <li><a href="#" class="btn">Get Started</a></li>
+                                    <li><a href="#" class="btn btn-alt">What Did We Miss?</a></li>
+                                </ul>
+                                <ul class="social">
+                                    <li class="animated" data-animate="fadeInUp" data-delay="1.9"><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="1.95"><a href="#"><em
+                                                class="fab fa-youtube"></em></a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="2"><a href="#"><em class="fab fa-github"></em></a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="2.05"><a href="#"><em
+                                                class="fab fa-telegram"></em></a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="2.15"><a href="#"><em
+                                                class="fab fa-medium-m"></em></a></li>
+                                </ul>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-lg-6 col-md-12 order-first">
+                            <div class="header-image animated" data-animate="fadeInRight" data-delay="1.25">
+                                <img src="{% static 'images/header-image-dark.png' %}" alt="header">
+                                {% comment %} <img class="header-image-icon left-icon" src="{% static 'images/header-icon-a.png' %}"
+                                    alt="header-icon">
+                                <img class="header-image-icon right-icon" src="{% static 'images/header-icon-b.png' %}"
+                                    alt="header-icon"> {% endcomment %}
+                            </div>
+                        </div><!-- .col  -->
+                    </div><!-- .row  -->
+                </div><!-- .banner-content  -->
+            </div><!-- .container  -->
+        </div><!-- End Banner/Slider -->
+    </header><!-- End Header -->
+    <!-- Start Section -->
+    <div class="section section-pad section-bg nopb section-bg-alt" id="intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 offset-md-1">
+                    <div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1"><img src="{% static 'images/graph-dark-a.png' %}"
+                            alt="graph"></div>
+                </div><!-- .col  -->
+                <div class="col-md-6 order-md-first order-last">
+                    <div class="text-block">
+                        <h2 class="animated" data-animate="fadeInUp" data-delay="0">EOSIOHub is a platform <br> that
+                            lists
+                            Tools and Dapps on the EOS Ecosystem.</h2>
+                        <p class="lead animated" data-animate="fadeInUp" data-delay=".1">With EOS being the top most
+                            active Blockchain Platform, it's very easy to miss out on very important tools/dapps/</p><a
+                            href="" class="play-btn video-play animated" data-animate="fadeInUp" data-delay=".2"><em
+                                class="play"><span></span></em><span>Video Coming Soon</span><span>See how you can use
+                                EOSIOHub</span></a>
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+        </div><!-- .conatiner  -->
+    </div><!-- Start Section -->
+
+    <!-- Start Section -->
+    <div class="section section-pad section-bg section-bg-alt" id="apps">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <div class="section-head">
+                        <div class="heading-animation"><span class="line-1"></span><span class="line-2"></span><span
+                                class="line-3"></span><span class="line-4"></span><span class="line-5"></span><span
+                                class="line-6"></span><span class="line-7"></span><span class="line-8"></span></div>
+                        <h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">The EOSIOHub Apps
+                            <span>apps</span></h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".1">Access, view, share and vote for
+                            your favorite dapps and/tools from the comfort of your variety of devices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1"><img src="{% static 'images/graph-dark-c.png' %}"
+                            alt="graph"></div>
+                </div><!-- .col  -->
+                <div class="col-md-5 offset-md-1">
+                    <div class="text-block">
+                        <p class="animated" data-animate="fadeInUp" data-delay="0">We are working really hard to ensure
+                            we provide a comfortable and easy way of accessing this platform. We shall have the
+                            Android, iOS, Mac, Linux and Windows Apps released very soon.
+                            Through the apps, you shall be able to perform the following:
+                        </p>
+                        <ul class="animated" data-animate="fadeInUp" data-delay=".1">
+                            <li>View DApps and Tools</li>
+                            <li>Suggest new Tools and Dapps</li>
+                            <li>Vote for your favorite Dapps and Tools</li>
+                            <li>Make posts through the eosioforumdapp contract</li>
+                            <li>Interact with the upcoming KotaniDex, a decentralized exchange</li>
+
+                        </ul>
+                        <ul class="btns">
+                            <li class="animated" data-animate="fadeInUp" data-delay="0"><a href="#" class="btn btn-sm">Apps
+                                    Coming Soon</a></li>
+                            <li class="animated" data-animate="fadeInUp" data-delay=".2"><a href="#"><em class="fab fa-apple"></em></a>
+                                <a href="#"><em class="fab fa-linux"></em></a>
+                                <a href="#"><em class="fab fa-android"></em></a><a href="#"><em class="fab fa-windows"></em></a></li>
+                        </ul>
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+        </div><!-- .container  -->
+    </div><!-- Start Section -->
+
+    <!-- Start Section -->
+    <div class="section section-pad section-bg-alt" id="tokenSale">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <div class="section-head">
+                        <h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">Tools & Dapps<span>Tools
+                                + Dapps</span></h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".1">We are working hard to incorporate
+                            the Tools and Dapps Section. We have redesigned everything from the ground up, and shall be
+                            ready over the next few days.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 res-m-bttm">
+                    <div class="row event-info">
+                        <div class="col-sm-6">
+                            <div class="event-single-info animated" data-animate="fadeInUp" data-delay="0">
+                                <h6>Dapps</h6>
+                                <p>View, Suggest Missing and Vote for fav. Dapps</p>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-sm-6">
+                            <div class="event-single-info animated" data-animate="fadeInUp" data-delay=".1">
+                                <h6>Tools</h6>
+                                <p>View, Suggest Missing and Vote for fav. Tools</p>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-sm-6">
+                            <div class="event-single-info animated" data-animate="fadeInUp" data-delay=".2">
+                                <h6>Resources</h6>
+                                <p>View, Contribute & Share Learning Resources</p>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-sm-6">
+                            <div class="event-single-info animated" data-animate="fadeInUp" data-delay=".3">
+                                <h6>View List of EOSIO-Related Github Repos</h6>
+                                <p>Links to Github profiles/repositories and libraries/plugins</p>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-sm-6">
+                            <div class="event-single-info animated" data-animate="fadeInUp" data-delay=".4">
+                                <h6>EOS Hackathon</h6>
+                                <p>View the global EOS Hackathon Leaderboard.</p>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-sm-6">
+                            <div class="event-single-info animated" data-animate="fadeInUp" data-delay=".5">
+                                <h6>Social</h6>
+                                <p>Connect to the Who's and who's in the EOS Space</p>
+                            </div>
+                        </div><!-- .col  -->
+                    </div><!-- .row  -->
+                </div><!-- .col  -->
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="countdown-box text-center animated" data-animate="fadeInUp" data-delay=".3">
+                        <div class="token-countdown d-flex align-content-stretch" data-date="2018/10/25"></div>
+                        <a href="#notify" class="btn btn-alt btn-sm">Subscribe &amp; Get Notified</a>
+
+                    </div>
+                </div><!-- .col  -->
+            </div>
+        </div><!-- .container  -->
+    </div><!-- Start Section -->
+    <!-- Start Section -->
+    <div class="section section-pad section-bg section-connect section-bg-alt" id="roadmap">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <div class="section-head">
+                        <h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">EOSIOHub Roadmap<span>RoadMap</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row roadmap-list align-items-end animated" data-animate="fadeInUp" data-delay="0">
+                <div class="col-lg">
+                    <div class="single-roadmap roadmap-sm roadmap-done">
+                        <h6>Late October, 2018</h6>
+                        <p>Launch EOSIOHub Web Portal</p>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-lg width-0">
+                    <div class="single-roadmap roadmap-down ">
+                        <h6>November 2018</h6>
+                        <p>Release API V1</p>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-lg">
+                    <div class="single-roadmap roadmap-lg">
+                        <h6>December 2018</h6>
+                        <p>Launch EOSIOHub App Collection</p>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-lg width-0">
+                    <div class="single-roadmap roadmap-down">
+                        <h6>January 2019</h6>
+                        <p>Streamline Integrations &amp; Release API V2</p>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-lg">
+                    <div class="single-roadmap roadmap-sm">
+                        <h6>February 2019</h6>
+                        <p>TBD</p>
+                    </div>
+                </div>
+
+            </div><!-- .row  -->
+        </div><!-- .container  -->
+    </div><!-- Start Section -->
+    <!-- Start Section -->
+    <div class="section section-pad section-bg-alt section-bg-alt" id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <div class="section-head">
+                        <h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">Contact Us<span>Contact</span></h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".1">Any question? Reach out to us and
+                            we’ll get back to you shortly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <ul class="contact-info">
+                        <li class="animated" data-animate="fadeInUp" data-delay="0"><em class="fa fa-phone"></em><span>+44
+                                0123 4567</span></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".1"><em class="fa fa-envelope"></em><span>info@yourcompany.com</span></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".2"><em class="fa fa-paper-plane"></em><span>Join
+                                us on Telegram</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <form id="contact-form" class="form-message text-center" action="" method="post">
+                        <div class="form-results"></div>
+                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".3"><input name="contact-name"
+                                type="text" class="input-line required"><label class="input-title">Your Name</label></div>
+                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".4"><input name="contact-email"
+                                type="email" class="input-line required email"><label class="input-title">Your Email</label></div>
+                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".5"><textarea name="contact-message"
+                                class="txtarea input-line required"></textarea><label class="input-title">Your Message</label></div><input
+                            type="text" class="d-none" name="form-anti-honeypot" value="">
+                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".6"><button type="submit"
+                                class="btn">Say It!</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Section -->
+    <!-- Start Section -->
+    <div class="section subscribe-section section-pad-md section-bg section-connect" id="notify">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3">
+                    <h4 class="section-title-md animated" data-animate="fadeInUp" data-delay="0">Don't miss out, Stay
+                        updated</h4>
+                    <form id="subscribe-form" action="" method="post" class="subscription-form inline-form"><input type="text"
+                            name="youremail" class="input-round required email" placeholder="Enter your email address"><input
+                            type="text" class="d-none" name="form-anti-honeypot" value=""><button type="submit" class="btn btn-plane">Subscribe</button>
+                        <div class="subscribe-results"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Section -->
+    <!-- Start Section -->
+    <div class="section footer-scetion no-pt section-pad-sm section-bg">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <ul class="social">
+                        <li class="animated" data-animate="fadeInUp" data-delay=".1"><a href="#"><em class="fab fa-twitter"></em></a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".2"><a href="#"><em class="fab fa-youtube"></em></a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><a href="#"><em class="fab fa-github"></em></a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"><em class="fab fa-medium-m"></em></a></li>
+                    </ul><span class="copyright-text animated" data-animate="fadeInUp" data-delay=".3">Copyright &copy;
+                        2018, EOSIOHub</span>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Section -->
+    <!-- Preloader !remove please if you do not want -->
+    <div id="preloader">
+        <div id="loader"></div>
+        <div class="loader-section loader-top"></div>
+        <div class="loader-section loader-bottom"></div>
+    </div><!-- Preloader End -->
+    <!-- JavaScript (include all script here) -->
+    <script src="{% static 'assets/js/jquery.bundle.js' %}"></script>
+    <script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+
+</html>
